@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Clase</title>
+    <link rel="stylesheet" href="../CSS/estiloRegistro.css">
+</head>
+
+<body>
+    <header id="contImagen">
+        <img src="../images/descarga.png" />
+    </header>
+    <main>
+        <div id="contFormulario">
+            <div id="formulario">
+                <form>
+                    <!--nombre-->
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input required size="50" type="text" id="nombre" name="nombre">
+                    <br>
+                    <label for="apellido">Apellido:</label>
+                    <br>
+                    <input size="50" type="text" id="apellido" name="apellido">
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input size="50" type="email" id="email" name="email">
+                    <br>
+                    <label for="telefono">Telefono:</label>
+                    <br>
+                    <input size="50" type="tel" id="telefono" name="telefono">
+                    <br>
+                    <label for="universidad">Universidad:</label>
+                    <br>
+                    <input size="50" type="text" id="universidad" name="universidad">
+                    <br>
+                    <label for=ciudades"">Ciudades:</label>
+                    <br>
+                   
+                    <select name="ciudades" id="ciudades">
+                        <!--<optgroup></optgroup> agrupa las ciudades-->
+                        <option>Bogota</option>
+                        <option>Medellin</option>
+                        <option>Cali</option>
+                        <option>Pereira</option>
+                    </select>
+                    
+                    <br>
+                    <br>
+                    <label for="extranjero">Extranjero</label>
+                    <input size="50" type="checkbox" id="extranjero" name="extranjero">
+                    <br>
+                    <br>
+                    <input class="fondo" type="submit" value="Login" />
+                    <br>
+                    <br>
+                    <div id="btnRegistro">
+                        Registrar
+                    </div>
+                </form>
+            </div>
+            <div id="tabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Email</th>
+                            <th>Telefono</th>
+                            <th>Universidad</th>
+                            <th>Ciudad</th>
+                            <th>Extranjero</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>jhon</td>
+                            <td>vargas</td>
+                            <td>asdh@</td>
+                            <td>1234</td>
+                            <td>Antoni Nariño</td>
+                            <td>Bogota</td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td>Santi</td>
+                            <td>vargas</td>
+                            <td>ah@</td>
+                            <td>456</td>
+                            <td>Antoni Nariño</td>
+                            <td>Bogota</td>
+                            <td>no</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

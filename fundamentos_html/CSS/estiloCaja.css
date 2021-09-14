@@ -1,0 +1,49 @@
+#s1 div{
+    border: 2px solid green;
+    width: 300px;
+    display: inline-block;
+}
+
+#s1 p{
+    margin: 0px;
+}
+
+/*#s1 div,#s2 div{
+    border: 2px solid green;
+    width: 300px;
+    display: inline-block;
+}*/
+
+#s2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#s3, #parrafo_1,#parrafo_2,#parrafo_3{
+    font-size: 1.2rem;
+
+}
+#parrafo_4{
+    font-family: cursive;
+}
+#parrafo_4{
+    color: orange;
+}
+
+#s4{
+    text-align: center;
+}
+#s4 div{
+    background-color: green;
+    width: 100px;
+    display: inline-block;
+    cursor: pointer;
+}
+#s4 div:hover{
+    color: orange;
+    background-color: rgb(144, 1444, 144);
+    
+}
+
+
+
